@@ -11,7 +11,7 @@ model = AutoModelForCausalLM.from_pretrained(
 
 messages = [
     {"role": "system", "content": "You are someone who knows everything."},
-    {"role": "user", "content": "Tell me about qua"},
+    {"role": "user", "content": "Tell me about quantum field theory in full details."},
 ]
 
 input_ids = tokenizer.apply_chat_template(
